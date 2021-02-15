@@ -10,11 +10,11 @@
   https://www.instructables.com/Arduino-Temperature-and-Humidity-Sensor/
 */
 
-#include <RCSwitch.h>
+#include <RCSwitch.h>            //https://github.com/sui77/rc-switch
 RCSwitch mySwitch = RCSwitch();
-#include <LowPower.h>
-#include <Adafruit_Sensor.h>
-#include "DHT.h"  
+#include <LowPower.h>            //https://github.com/rocketscream/Low-Power
+#include <Adafruit_Sensor.h>     //https://github.com/adafruit/Adafruit_Sensor
+#include "DHT.h"                 //https://github.com/adafruit/DHT-sensor-library
 #define DHTTYPE DHT22 
 #define DHTPIN 2
 #define DHTpowerPin 9

@@ -5,10 +5,10 @@
 
 #include <ESP8266WiFi.h>    
 #include <WiFiManager.h>         // https://github.com/tzapu/WiFiManager
-#include <ThingSpeak.h>
+#include <ThingSpeak.h>          //https://github.com/mathworks/thingspeak-arduino
 #include <WiFiClient.h>
 WiFiClient client;
-#include <RCSwitch.h>
+#include <RCSwitch.h>     //https://github.com/sui77/rc-switch
 RCSwitch mySwitch = RCSwitch();
 
 unsigned long myTempChannel = ***********;   //Thingspeak 
